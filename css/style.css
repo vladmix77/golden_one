@@ -34,6 +34,7 @@
 
 .logo {
   padding-top: 10px;
+  padding-bottom: 190px;
 }
 
 .header__top-menu {
@@ -47,4 +48,38 @@
   text-decoration: none;
   cursor: pointer;
   color: #fff;
+}
+
+.header__titles-first {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.header__titles-button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #484543;
+    background-color: #fed136;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 240px;
+    height: 65px;
+    display: block;
+    padding: 23px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 auto;
 }
