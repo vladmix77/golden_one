@@ -162,5 +162,13 @@ h1 {
   padding-bottom: 75px;
 }
 
+.portfolio__box {
+  display: flex;
+  justify-content: center;
+}
 
-290 h300
+.portfolio__box-img {
+  width: 290px;
+  height: 300px;
+  margin-bottom: 130px;
+}
