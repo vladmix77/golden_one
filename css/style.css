@@ -90,7 +90,8 @@ h1 {
 
 .services {
   margin-top: 110px;
-  height: 570px;
+  margin-bottom: 150px;
+  /* height: 570px; */
 }
 
 .services__title {
@@ -102,7 +103,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-.services__title-subtitle {
+.services__subtitle {
   font-size: 16px;
   font-weight: 400;
   color: #777;
@@ -116,25 +117,50 @@ h1 {
 }
 
 .services__box-inner {
-  width: 260px;
+  width: 280px;
   height: 200px;
 }
 
-.services__box-inner  .icon1 {
- margin: 0 auto;
- display: block;
- margin-bottom: 20px;
+.services__box-inner .icon1 {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .services__box-inner-title {
-font-size: 18px;
-font-weight: 700;
-color: #222;
-text-align: center;
-margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .services__box-inner-subtitle {
-color: #777;
-text-align: center;
+  color: #777;
 }
+
+/* section .portfolio */
+
+.portfolio {
+ background-color: #f7f7f7;
+}
+
+.portfolio__title { 
+  padding-top: 115px; 
+  font-size: 40px;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.portfolio__subtitle {
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
+  color: #777;
+  padding-bottom: 75px;
+}
+
+
+290 h300
