@@ -191,3 +191,33 @@ h1 {
   color: #777;
   padding-bottom: 75px;
 }
+
+.about__wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.about__inner-box {
+  width: 340px;
+  height: 183px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.about__inner-box-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.about__inner-box-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+
+.about__image {
+  margin-left: 65px;
+}
