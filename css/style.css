@@ -143,15 +143,16 @@ h1 {
 
 .portfolio {
   background-color: #f7f7f7;
+  padding-top: 115px;
+  padding-bottom: 130px;
 }
 
-.portfolio__title {
-  padding-top: 115px;
+.portfolio__title { 
   font-size: 40px;
   font-weight: 700;
   color: #222;
   text-align: center;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .portfolio__subtitle {
@@ -164,16 +165,16 @@ h1 {
 
 .portfolio__box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .portfolio__box-img {
   width: 290px;
   height: 300px;
-  margin-bottom: 130px;
 }
 
 /* section .about */
+
 
 .about__title {
   padding-top: 115px;
@@ -194,8 +195,6 @@ h1 {
 
 .about__wrapper {
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
 .about__inner-box {
@@ -203,6 +202,7 @@ h1 {
   height: 183px;
   text-align: right;
   line-height: 1.5;
+  padding-right: 30px;
 }
 
 .about__inner-box-title {
@@ -218,6 +218,6 @@ h1 {
   color: #777;
 }
 
-.about__image {
+/* .about__image {
   margin-left: 65px;
-}
+} */
