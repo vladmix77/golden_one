@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -147,7 +147,7 @@ h1 {
   padding-bottom: 130px;
 }
 
-.portfolio__title { 
+.portfolio__title {
   font-size: 40px;
   font-weight: 700;
   color: #222;
@@ -174,7 +174,6 @@ h1 {
 }
 
 /* section .about */
-
 
 .about__title {
   padding-top: 115px;
