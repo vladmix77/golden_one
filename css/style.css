@@ -254,3 +254,18 @@ h1 {
 .about__inner-image {
   order: 5;
 }
+
+.about__inner:last-child {
+  padding-bottom: 0;
+}
+
+/* footer .footer */
+
+.footer__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding-bottom: 110px;
+}
